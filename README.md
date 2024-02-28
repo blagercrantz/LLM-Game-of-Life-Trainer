@@ -1,5 +1,5 @@
 # LLM-Game-of-Life-Trainer
-An idea for how we can train LLMs to think more logically
+How we can train LLMs to think more logically
 
 This is a simple logic puzzle based on Conway's Game of Life. The goal is to predict how a grid of any given size will look after one iteration. What if we generate incrementally harder logic puzzles such as these and let GPT-4 or a model of its size solve them? If the model gets the answer right, we create more versions of that model, with slightly tweaked weights in the last layer of the neural network. This could lead to more and more logical versions of the LLM evolving.
 
